@@ -164,6 +164,7 @@ function App() {
     MARKETPLACE: "",
     MARKETPLACE_LINK: "",
     SHOW_BACKGROUND: false,
+    AMOUNT_MINTED: 0,
   });
 
   const claimNFTs = () => {
@@ -182,7 +183,7 @@ function App() {
     blockchain.smartContract.methods
       .mint(mintAmount)
       .send({
-        addressMintedBalance:String(howManyMinted),
+        addressMintedBalance:howManyMinted,
         gasLimit: String(totalGasLimit),
         to: CONFIG.CONTRACT_ADDRESS,
         from: blockchain.account,
