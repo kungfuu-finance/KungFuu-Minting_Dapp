@@ -171,8 +171,10 @@ function App() {
     let gasLimit = CONFIG.GAS_LIMIT;
     let totalCostWei = String(cost * mintAmount);
     let totalGasLimit = String(gasLimit * mintAmount);
-    let totalMintedAmount = String(ownerMintedCount + mintAmount);
-    console.log("Minted Amount", totalMintedAmount);
+    let howManyMinted = String(ownerMintedCount + mintAmount)
+    let addressMintedBalance = String(howManyMinted);
+    console.log("Mints", howManyMinted);
+    console.log("Minted Amount", addressMintedBalance);
     console.log("Cost: ", totalCostWei);
     console.log("Gas limit: ", totalGasLimit);
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
@@ -180,7 +182,7 @@ function App() {
     blockchain.smartContract.methods
       .mint(mintAmount)
       .send({
-        totalMintedAmount:String(ownerMintedCount),
+        addressMintedBalance:String(howManyMinted),
         gasLimit: String(totalGasLimit),
         to: CONFIG.CONTRACT_ADDRESS,
         from: blockchain.account,
