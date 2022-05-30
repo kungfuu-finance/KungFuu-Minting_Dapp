@@ -1,18 +1,25 @@
 {
-  "CONTRACT_ADDRESS": "0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
-  "SCAN_LINK": "https://polygonscan.com/token/0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
+  "CONTRACT_ADDRESS": "0xC47A4C1DE38249C5adc078f48c705b97BCefC9E8",
+  "SCAN_LINK": "https://testnet.ftmscan.com/token/0xC47A4C1DE38249C5adc078f48c705b97BCefC9E8",
   "NETWORK": {
-    "NAME": "Polygon",
-    "SYMBOL": "Matic",
-    "ID": 137
+    "NAME": "Fantom",
+    "SYMBOL": "FTM",
+    "ID": 4002
   },
-  "NFT_NAME": "Nerdy Coder Clones",
-  "SYMBOL": "NCC",
-  "MAX_SUPPLY": 1000,
-  "WEI_COST": 75000000000000000,
-  "DISPLAY_COST": 0.075,
+  "NFT_NAME": "KFFTest",
+  "SYMBOL": "KFFT",
+  "MAX_SUPPLY": 2000,
+  "WEI_COST": 100000000000000000,
+  "DISPLAY_COST": 0.1,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/nerdy-coder-clones",
+  "DISCORD_LINK": "https://discord.gg/83vj9zBvdB",
+  "TELEGRAM_LINK": "https://t.me/kungfuu_fi",
+  "TWITTER_LINK": "https://twitter.com/kungfuu_fi",
+  "KUNGFUU": "KungFuu",
+  "KUNGFUU_LINK": "https://www.kungfuu.app",
+  "MARKETPLACE": "View on PaintSwap",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
+  "WHITEPAPER": "Whitepaper",
+  "WHITEPAPER_LINK": "https://kungfuufinance.gitbook.io/kungfuu-finance/",
   "SHOW_BACKGROUND": true
 }
