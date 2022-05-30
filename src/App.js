@@ -180,7 +180,7 @@ function App() {
     blockchain.smartContract.methods
       .mint(mintAmount)
       .send({
-        totalMintedAmount,
+        totalMintedAmount:String(ownerMintedCount),
         gasLimit: String(totalGasLimit),
         to: CONFIG.CONTRACT_ADDRESS,
         from: blockchain.account,
