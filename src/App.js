@@ -238,7 +238,7 @@ function App() {
   useEffect(() => {
     getData();
   }, [blockchain.account]);
-  
+
   return (
     <s.Screen>
       <s.Container
