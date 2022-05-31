@@ -256,8 +256,7 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
-                    <p>TEST NET ONLY. CONTRACT IS NOT YET LIVE.</p>
-                    <p>🔥🥷 KungFuu Whitelist Presale Tomorrow 🥷🔥</p>
+                    <p>🔥🥷 KungFuu Whitelist Presale now live 🥷🔥</p>
                     <p>Treasury backed yield bearing NFTs on Fantom</p>
                     </s.TextTitle>
         <s.SpacerSmall />
@@ -446,7 +445,7 @@ function App() {
                         textAlign: "center",
                         color: "var(--accent-text)",
                       }}
-                    ><p>🚀 General Public Sale Live 7am UTC June 1st 🚀</p>
+                    ><p>🚀 General Public Sale Live 10am UTC June 1st 🚀</p>
                     </s.TextTitle>
             <s.SpacerLarge />
             
