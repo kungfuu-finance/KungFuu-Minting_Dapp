@@ -1,16 +1,16 @@
 {
-  "CONTRACT_ADDRESS": "0xb8719EfA1422b106A1291e0F9265f4369BF634fD",
-  "SCAN_LINK": "https://testnet.ftmscan.com/token/0xb8719EfA1422b106A1291e0F9265f4369BF634fD",
+  "CONTRACT_ADDRESS": "0xbA3F1a217aA54a2C7Db522D9359e737eE45aD59b",
+  "SCAN_LINK": "https://testnet.ftmscan.com/token/0xbA3F1a217aA54a2C7Db522D9359e737eE45aD59b",
   "NETWORK": {
     "NAME": "Fantom",
     "SYMBOL": "FTM",
-    "ID": 4002
+    "ID": 250
   },
   "NFT_NAME": "KFFTest",
   "SYMBOL": "KFFT",
   "MAX_SUPPLY": 2000,
-  "WEI_COST": 100000000000000000,
-  "DISPLAY_COST": 0.1,
+  "WEI_COST": 100000000000000000000,
+  "DISPLAY_COST": 100,
   "GAS_LIMIT": 285000,
   "DISCORD_LINK": "https://discord.gg/83vj9zBvdB",
   "TELEGRAM_LINK": "https://t.me/kungfuu_fi",
@@ -18,7 +18,7 @@
   "KUNGFUU": "KungFuu",
   "KUNGFUU_LINK": "https://www.kungfuu.app",
   "MARKETPLACE": "View on PaintSwap",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
+  "MARKETPLACE_LINK": "https://paintswap.finance",
   "WHITEPAPER": "Whitepaper",
   "WHITEPAPER_LINK": "https://kungfuufinance.gitbook.io/kungfuu-finance/",
   "SHOW_BACKGROUND": true
