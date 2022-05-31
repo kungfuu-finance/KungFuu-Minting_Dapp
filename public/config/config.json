@@ -1,13 +1,13 @@
 {
   "CONTRACT_ADDRESS": "0xbA3F1a217aA54a2C7Db522D9359e737eE45aD59b",
-  "SCAN_LINK": "https://testnet.ftmscan.com/token/0xbA3F1a217aA54a2C7Db522D9359e737eE45aD59b",
+  "SCAN_LINK": "https://ftmscan.com/token/0xbA3F1a217aA54a2C7Db522D9359e737eE45aD59b",
   "NETWORK": {
     "NAME": "Fantom",
     "SYMBOL": "FTM",
     "ID": 250
   },
-  "NFT_NAME": "KFFTest",
-  "SYMBOL": "KFFT",
+  "NFT_NAME": "KungFuu NFT",
+  "SYMBOL": "KFFNFT",
   "MAX_SUPPLY": 2000,
   "WEI_COST": 100000000000000000000,
   "DISPLAY_COST": 100,
