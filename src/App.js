@@ -256,7 +256,7 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
-                    <p>🔥🥷 KungFuu Whitelist Presale now live 🥷🔥</p>
+                    <p>🔥🥷 KungFuu NFT Mint is Now live 🥷🔥</p>
                     <p>Treasury backed yield bearing NFTs on Fantom</p>
                     </s.TextTitle>
         <s.SpacerSmall />
@@ -440,13 +440,6 @@ function App() {
               >
                 {CONFIG.MARKETPLACE}
               </LinkButton></span></s.LinkContainer>
-              <s.TextTitle
-                      style={{
-                        textAlign: "center",
-                        color: "var(--accent-text)",
-                      }}
-                    ><p>🚀 General Public Sale Live 10am UTC June 1st 🚀</p>
-                    </s.TextTitle>
             <s.SpacerLarge />
             
           </s.BlurContainer>
