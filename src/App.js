@@ -256,7 +256,7 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
-                    <p>🔥🥷 KungFuu NFT Mint is Now live 🥷🔥</p>
+                    <p>🔥🥷  KungFuu NFT Mint is Now live  🥷🔥</p>
                     <p>Treasury backed yield bearing NFTs on Fantom</p>
                     </s.TextTitle>
         <s.SpacerSmall />
@@ -460,8 +460,6 @@ function App() {
             }}
           >
             <p>Please make sure you are connected to {CONFIG.NETWORK.NAME}.</p>
-            <p>Please note:
-            Once you make the purchase, you cannot undo this action.</p>
           </s.TextDescription>
           <s.SpacerSmall />
         </s.Container><span>
